@@ -13,3 +13,4 @@ var NoLink = React.createClass({
         </div>);
     }
 });
+React.render(<NoLink />, document.getElementById('example'));

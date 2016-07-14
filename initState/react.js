@@ -1,6 +1,7 @@
 /**
  * Created by wb-fkc215799 on 2016/7/14.
  */
+let a = 1;
 var BindToggleEvent = React.createClass({
     getInitialState: function() {
         return {

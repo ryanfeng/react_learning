@@ -9,24 +9,6 @@
 </head>
 <body>
 <div id="example"></div>
-<script type="text/babel">
-    var NoLink = React.createClass({
-        getInitialState: function() {
-            return {message: 'Hello!'};
-        },
-        handleChange: function(event) {
-            this.setState({message: event.target.value});
-        },
-        render: function() {
-            var message = this.state.message;
-            return (<div>
-                        <input type="text" value={message} onChange={this.handleChange} />
-                        <span>{message}</span>
-                    </div>);
-        }
-    });
-
-    React.render(<NoLink />, document.getElementById('example'));
-</script>
+<script type="text/babel" src="index.js"></script>
 </body>
 </html>
